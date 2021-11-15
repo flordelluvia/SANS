@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>My Web Page</title>
+    <style>
+        h1{font-family:sans-serif}
+
+        #div_all{
+            margin:auto;
+            width:800px;
+            display: table-cell;
+            vertical-align:middle;
+        }
+
+        #div_north {
+            width: 100%;
+            height: 80px;
+            background-color: mediumpurple;
+            display: inline-block;
+            text-align: center;
+        }
+
+        #div_west{
+            width:20%;
+            height:400px;
+            float:left;
+            background-color:orange;
+            text-align:left;
+
+        }
+        #div_east {
+            width: 80%;
+            height: 400px;
+            float:right;
+            background-color: yellow;
+            text-align: left;
+        }
+        #div_south {
+            width: 100%;
+            height: 50px;
+            clear:both;
+            background-color: saddlebrown;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="div_all"></div>
+    <div id="div_north">
+        <p><h1>My Blog Page</h1></p>
+    </div>
+    <div id="div_west">
+    <h1>Links</h1>
+    <ul>
+        <li><a href="">W3C</a></li>
+        <li><a href="">MOZILLA</a></li>
+        <li><a href="">HTML Dogs</a></li>
+    </ul>
+        <img src="ace_of_spades.png"width="100"height="180" />
+        <p>에이스</p>
+    </div>
+    <div id="div_east">
+    <section>
+        <h1>Sematic Tags</h1>
+        <p>시맨틱 요소들은 브라우저에게 요소의 의미나 목적을 명확하게 알려주는 요소이다.
+            </p><br />
+        <h1>div와 span</h1>
+        <p>div은 "divide"의 약자로서 페이지를 논리적인 섹션으로 분리하는데 사용되는 태그이다. span 요소는 인라인 요소로서 텍스트를 위한 컨테이너로 사용할 수 있다.</p>
+        </section>
+    </div>
+    <div id="div_south">
+        <h3>Copyright (c) 2013 Hong</h3></div>
+</body>
+</html>
